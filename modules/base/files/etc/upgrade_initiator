@@ -1,0 +1,7 @@
+# The text in this file doesn't matter. The key is to *change* it whenever
+# you want apt-get upgrade to run on the testbot.
+# For example, add a new timestamp to the end when you want it to run.
+# Obvious times to do this are when updating the drupaltestbot package
+# or when forcing a new php version, etc.
+27 May 2013 11:08am
+

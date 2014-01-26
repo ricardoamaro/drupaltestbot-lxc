@@ -1,0 +1,8 @@
+# This file lists locales that you wish to have built.
+
+en_US.UTF-8 UTF-8
+en_US ISO-8859-1
+en_US.ISO-8859-15 ISO-8859-15
+fr_FR.UTF-8 UTF-8
+fr_FR ISO-8859-1
+fr_FR@euro ISO-8859-15

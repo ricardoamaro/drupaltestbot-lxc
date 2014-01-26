@@ -1,0 +1,17 @@
+Defaults	!lecture, env_keep="SSH_AUTH_SOCK", always_set_home
+Defaults        env_reset
+Defaults        mail_badpass
+Defaults        secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+
+# root can always sudo.
+root	ALL=(ALL) ALL
+
+# Members of the sudo group can sudo everywhere.
+%sudo	ALL=(ALL) ALL
+
+Defaults:vagrant !requiretty
+Defaults:vagrant !env_reset
+vagrant ALL=(ALL) NOPASSWD:ALL
+
+# See sudoers(5) for more information on "#include" directives:
+#includedir /etc/sudoers.d

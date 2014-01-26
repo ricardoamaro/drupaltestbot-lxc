@@ -1,0 +1,30 @@
+# This file allows you to make local config changes to your vagrant configuration
+# Copy it to "Vagrantfile.local" (which is in .gitignore) and config here
+# will be included in your Vagrantfile
+# You can also use ~/.vagrant.d/Vagrantfile to provide overall config for all
+# vagrant instances.
+
+#### Note you must mount this *after* the testbot is built because
+#### Puppet will refuse to install drupaltestbot if /var/lib/drupaltestbot is mounted.
+#### After you enable the mount, you must "vagrant reload" and "vagrant provision"
+# If you want to mount the docroot from the host machine, set the
+# $host_docroot to the host's path as in one of these examples
+# $host_docroot = "~/workspace/testbot"
+# $host_docroot = "C:/Users/rfay/workspace/testbot"
+# $host_docroot = nil
+
+# Change the amount of memory allocated to the Vagrant VM, if you have more
+# Requires "vagrant reload"
+# $virtualbox_memory = "2048"
+
+# Change number of cores allocated. You will probably want as many as you can
+# handle, up to 8
+# $virtualbox_cpus = 4
+
+
+# Change the IP address; you are responsible for the results of this :-)
+# $ipaddress = "172.16.1.102"
+
+# To keep an apt-cache mount on the host (for hopefully quicker installs)
+# If you are regularly destroying and rebuilding you *really* want this.
+# $vagrant_apt_cache = "/var/tmp/vagrant_apt_cache"

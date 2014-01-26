@@ -1,0 +1,7 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "drupal"]
+	url = git://git.drupal.org/project/drupal.git
+	fetch = +refs/heads/*:refs/remotes/drupal/*

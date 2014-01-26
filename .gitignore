@@ -1,0 +1,4 @@
+.project
+rack
+.vagrant
+Vagrantfile.local

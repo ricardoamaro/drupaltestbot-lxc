@@ -1,0 +1,4 @@
+Package: git git-core
+Pin: release a=oldstable
+Pin: version 1:1.7.2.5*
+Pin-Priority: 1001
